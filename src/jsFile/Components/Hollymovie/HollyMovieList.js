@@ -62,7 +62,7 @@ const hollyMovieList=[
     {
         "line":<div className='HollymovieHrline'/>,
         "box":<div className="LatestHollywoodMovie">
-        <img className='HollyImage' src='./Images/H.wool.jpg'></img>
+        <img className='HollyImage' src='./Images/H.wool.jpg' alt="hollywoodImage"></img>
         <div className='HollyHeading'>X-Men Origin : The Wolverine In 3D (2013) </div>
         <div className='HollyMovie_Desc'>Logan travels to Tokyo to meet Yashida, an old acquaintance who is dying. The situation regresses when Yashida offers to take away his healing abilities, but Logan refuses.</div>
         <div className="Hollyrating">Rating : 6.7/10</div>
@@ -74,7 +74,7 @@ const hollyMovieList=[
     {
         "line":<div className='HollymovieHrline'/>,
         "box":<div className="LatestHollywoodMovie">
-        <img className='HollyImage' src='./Images/H.blackpanther.jpg'></img>
+        <img className='HollyImage' src='./Images/H.blackpanther.jpg' alt="hollywoodImage"></img>
         <div className='HollyHeading'>Marvels Cinematic Universe : Black Panther  </div>
         <div className='HollyMovie_Desc'>After his father's death, T'Challa returns home to Wakanda to inherit his throne. However, a powerful enemy related to his family threatens to attack his nation.</div>
         <div className="Hollyrating">Rating : 7.3/10</div>
