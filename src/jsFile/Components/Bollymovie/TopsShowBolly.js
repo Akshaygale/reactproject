@@ -7,7 +7,7 @@ function TopsShowBolly() {
             <div  className='Bollybox'>
                 <p className='bollyHeading'>Top Bollywood</p>
                 <div className='BollyRedline'/>
-                <img className='Bollyfirstimage' src='./Images/B.gabbar.jpg'></img>
+                <img className='Bollyfirstimage' src='./Images/B.gabbar.jpg' alt='bollywoodImage'></img>
                 <p className='Bolly_desc'>Pachas Pachas Kos Door Jab Koi Rishvat Leta Hai Toh Sab Kehte Hai Mat Le, Varna … Gabbar Aa Jayega…</p>
 
             </div>

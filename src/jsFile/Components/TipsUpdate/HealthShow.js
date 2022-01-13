@@ -36,7 +36,7 @@ const Lastest_Stories=()=> {
                 </div> 
                <div onClick={()=> setHidden(true)}>
                     {!hidden && <button id='latestStoriesLoadButton' onClick={handelTipsLoadMore} className='latestStoriesViewMore'> 
-                        <img className='arrowImage' src='./Images/arrowRight.png'></img>View More</button>}
+                        <img className='arrowImage' src='./Images/arrowRight.png' alt='arrow'></img>View More</button>}
 
                 </div>  
             </div>

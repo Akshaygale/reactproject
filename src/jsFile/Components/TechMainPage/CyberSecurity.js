@@ -7,7 +7,7 @@ function CyberSecurity() {
     return (
         <div >
         <div className='InfoBox'>
-        <img className='TechImage' src='./Images/security2.jpg' alt='Edge Technology'></img>
+        <img className='TechImage' src='./Images/security2.jpg' alt='Cybersecurity'></img>
         <h1>What is cybersecurity?</h1>
         <p>Cybersecurity is the practice of protecting critical systems and sensitive information from digital attacks. Also known as information technology (IT) security, cybersecurity measures are designed to combat threats against networked systems and applications, whether those threats originate from inside or outside of an organization. </p>
         <h2>Why is cyber security important?</h2>

@@ -32,7 +32,7 @@ const HollyPageContent=()=> {
             <HollyMovieRepeat updatehollywoodToRender={movieToShow}/>
             <div onClick={()=> setHidden(true)}>
                 {!hidden && <button id='latestArticleLoadButton' onClick={handleHollyMovieLoadMore} 
-                className='HollywoodmovieLoadmore'><img  className='arrowImage' src='./Images/arrow.png'></img>Load More</button>}
+                className='HollywoodmovieLoadmore'><img  className='arrowImage' src='./Images/arrow.png' alt='hollywoodImage'></img>Load More</button>}
             </div>
             
 

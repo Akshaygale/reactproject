@@ -5,7 +5,7 @@ function TechUserFace() {
         <div>
         <div className='techbox'>
         <div className='TechUserInfo'>
-            <img className='facelogoImage' src='./Images/Facelogo.png' alt='Edge Technology'></img>
+            <img className='facelogoImage' src='./Images/Facelogo.png' alt='userface'></img>
             <pre className='userName'>Dmitry Nozhenko<br/>
                 Jan 28 2016</pre>
             <div className='UserlogoBox'>

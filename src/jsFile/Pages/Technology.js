@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import EdgeTechnology from '../Components/TechMainPage/EdgeTechnology';
-import TechUserFace from '../Components/TechMainPage/TechUserFace';
 
 function Technology() {
     
