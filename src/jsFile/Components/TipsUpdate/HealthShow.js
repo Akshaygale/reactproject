@@ -1,6 +1,7 @@
 import React,{ useState, useEffect } from 'react'
 import HealtTipsRepeat from './HealtTipsRepeat';
 import updateHealthTips from './UpdateHealthTips'
+import { Link } from 'react-router-dom';
 
 const TipsperPage=1;
 let arrayForHoldingTips=[];
@@ -29,7 +30,7 @@ const Lastest_Stories=()=> {
 
     return (
             <div className='latestStoriesShow'>
-                <p className='LatestStoriesMainHeading'>Healthy Life Hacks for Busy People</p>
+            <Link className='LatestStoriesMainHeading' to={"/fitness"}><p >Healthy Life Hacks for Busy People</p></Link>
                 <div className='LatestStoriesHeadingRedLine'/>
                 <div className='linehorizontal'></div><div>
                 <HealtTipsRepeat updateHealthToRender={tipsToShow}/>

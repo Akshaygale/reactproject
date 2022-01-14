@@ -4,6 +4,7 @@ import hollyMovieList from './HollyMovieList'
 import TopsShowBolly from '../Bollymovie/TopsShowBolly'
 import HollyMovieRepeat from './HollyMovieRepeat'
 // import { Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 const HollyMovieperPage=4;
 let arrayForHoldingHollyMovie=[];
@@ -32,7 +33,7 @@ const LatestHollyMovie=()=> {
 
     return (
         <div>
-            <h1 className='Hollywoodmovie_Word'> Hollywood Movies</h1>
+            <Link className='Hollywoodmovie_Word' to={"/hollywood"}><h1 > Hollywood Movies</h1></Link>
             <div className='Thelatest_wordundeline'/>
             <div/>
             <Advertisement/>
@@ -45,7 +46,7 @@ const LatestHollyMovie=()=> {
                 {/* TOP BOLLYWOOD POST*/}
             <TopsShowBolly/>
             
-            {<img className='FitSeparateImage' src='./Images/Fit.ness.jpg'  alt='hollywoodImage'></img>}
+        <Link to={"/food"}><img className='FitSeparateImage' src='./Images/Fit.ness.jpg'  alt='hollywoodImage'></img></Link>
 
         </div>
     )

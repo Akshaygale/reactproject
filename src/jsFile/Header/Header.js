@@ -14,9 +14,9 @@ function Header() {
                 <Link className='navbarWords' to='/home'>Home</Link>
                 <Link className='navbarWords' to='/hollywood'>Hollywood</Link>
                 <Link className='navbarWords' to='/technology'>Technology</Link>
-                <Link className='navbarWords' to=''>Bollywood</Link>
-                <Link className='navbarWords' to=''>Fitness</Link>
-                <Link className='navbarWords' to=''>Food</Link>
+                <Link className='navbarWords' to='/bollywood'>Bollywood</Link>
+                <Link className='navbarWords' to='/fitness'>Fitness</Link>
+                <Link className='navbarWords' to='/food'>Food</Link>
             </div>
             <div className='bars'><i class="fas fa-bars "></i></div>
             <div className='horiLine'/>

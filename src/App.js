@@ -10,6 +10,8 @@ import Iot from './jsFile/Components/TechMainPage/Iot';
 import AI from './jsFile/Components/TechMainPage/AI';
 import CyberSecurity from './jsFile/Components/TechMainPage/CyberSecurity';
 import Webdevelopment from './jsFile/Components/TechMainPage/Webdevelopment';
+import Fitness from './jsFile/Pages/Fitness';
+import Food from './jsFile/Pages/Food';
 
 
 
@@ -22,6 +24,7 @@ function App() {
         <Route path='' element={<Homepage/>}/>
         <Route path='/home' element={<Homepage/>}/>
         <Route path='/hollywood' element={<Hollywood/>}/>
+        <Route path='/bollywood' element={<Hollywood/>}/>
         <Route path='/technology' element={<Technology/>}/>
         <Route path='/edgeTechnology' element={<EdgeTechnology/>}/>
         <Route path='/digitalmarketing' element={<DigitalMarketing/>}/>
@@ -29,6 +32,8 @@ function App() {
         <Route path='/ai' element={<AI/>}/>
         <Route path='/cybersecurity' element={<CyberSecurity/>}/>
         <Route path='/webdevelopment' element={<Webdevelopment/>}/>
+        <Route path='/fitness' element={<Fitness/>}/>
+        <Route path='/food' element={<Food/>}/>
       </Routes>
     </Router>
   );
