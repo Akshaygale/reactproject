@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const TipsperPage=1;
 let arrayForHoldingTips=[];
 
-const Lastest_Stories=()=> {
+const HealthShow=()=> {
 
     const [hidden, setHidden]=useState(false)
     const [tipsToShow, setTipsToShow ]=useState([]);
@@ -45,5 +45,5 @@ const Lastest_Stories=()=> {
     }
 
 
-export default Lastest_Stories
+export default HealthShow
 

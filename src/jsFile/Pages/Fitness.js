@@ -1,5 +1,5 @@
 import React from 'react'
-import Lastest_Stories from '../Components/TipsUpdate/HealthShow'
+import HealthShow from '../Components/TipsUpdate/HealthShow'
 
 function Fitness() {
     return (
@@ -60,16 +60,8 @@ function Fitness() {
                 <li>Vitamin C increases</li>
                 </ul>
         </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <Lastest_Stories/>
+         
+        <HealthShow/>
         </div>
     )
 }
