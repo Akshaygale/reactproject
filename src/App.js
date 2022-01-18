@@ -12,6 +12,20 @@ import CyberSecurity from './jsFile/Components/TechMainPage/CyberSecurity';
 import Webdevelopment from './jsFile/Components/TechMainPage/Webdevelopment';
 import Fitness from './jsFile/Pages/Fitness';
 import Food from './jsFile/Pages/Food';
+import Harry from './jsFile/Components/HollywoodMainPage/Harry';
+import Pirates from './jsFile/Components/HollywoodMainPage/Pirates';
+import Transformer from './jsFile/Components/HollywoodMainPage/Transformer';
+import WonderW from './jsFile/Components/HollywoodMainPage/WonderW';
+import Wool from './jsFile/Components/HollywoodMainPage/Wool';
+import BlackPanther from './jsFile/Components/HollywoodMainPage/BlackPanther';
+import Olympus from './jsFile/Components/HollywoodMainPage/Olympus';
+import BeautyBeast from './jsFile/Components/HollywoodMainPage/BeautyBeast';
+import Bollywood from './jsFile/Pages/Bollywood';
+import Ghajini from './jsFile/Components/BollywoodMainPage/Ghajini';
+import Tzp from './jsFile/Components/BollywoodMainPage/Tzp';
+import Villan from './jsFile/Components/BollywoodMainPage/Villan';
+import Gabbar from './jsFile/Components/BollywoodMainPage/Gabbar';
+import Brahmastra from './jsFile/Components/BollywoodMainPage/Brahmastra'
 
 
 
@@ -23,8 +37,7 @@ function App() {
       <Routes>
         <Route path='' element={<Homepage/>}/>
         <Route path='/home' element={<Homepage/>}/>
-        <Route path='/hollywood' element={<Hollywood/>}/>
-        <Route path='/bollywood' element={<Hollywood/>}/>
+
         <Route path='/technology' element={<Technology/>}/>
         <Route path='/edgeTechnology' element={<EdgeTechnology/>}/>
         <Route path='/digitalmarketing' element={<DigitalMarketing/>}/>
@@ -34,6 +47,25 @@ function App() {
         <Route path='/webdevelopment' element={<Webdevelopment/>}/>
         <Route path='/fitness' element={<Fitness/>}/>
         <Route path='/food' element={<Food/>}/>
+
+        <Route path='/hollywood' element={<Hollywood/>}/>
+        <Route path='/harry' element={<Harry/>}/>
+        <Route path='/pirates' element={<Pirates/>}/>
+        <Route path='/transformer' element={<Transformer/>}/>
+        <Route path='/wonder' element={<WonderW/>}/>
+        <Route path='/wool' element={<Wool/>}/>
+        <Route path='blackpanther' element={<BlackPanther/>}/>
+        <Route path='olympus' element={<Olympus/>}/>
+        <Route path='beautybeast' element={<BeautyBeast/>}/>
+
+        <Route path='/bollywood' element={<Bollywood/>}/>
+        <Route path='/ghajini' element={<Ghajini/>}/>
+        <Route path='/tzp' element={<Tzp/>}/>
+        <Route path='/villan' element={<Villan/>}/>
+        <Route path='/gabbar' element={<Gabbar/>}/>
+        <Route path='/brahmastra' element={<Brahmastra/>}/>
+
+
       </Routes>
     </Router>
   );

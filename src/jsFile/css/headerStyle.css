@@ -461,32 +461,70 @@
 
 /*          HoLLYWOOD PAGE               */
 .hollywoodWord{
-    margin-top: 70px;
-    text-align: left;
-    font: normal normal medium 40px/40px Montserrat;
+    margin-top: 10px;
+    margin-left: 550px;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
 }
-.redlineHollywood{
-    height: 5px;
-    width: 70px;
-    margin-top: 35px;
-    background-color: red;
+.hollyMainpageImages{
+    width: 280px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+
 }
-.hollywoodPageContent{
-    /* position: relative;
-    top: -2280px; */
+.hollyMainpageAllImage{
+    margin-left: 130px;
 }
-.BollyWoodPagecontents{
-    position: absolute;
-    top: -2000px;
-    left: -20px;
-    margin-bottom: 50px;
+/* Harry.js */
+.InfoBoxHollyMovie{
+    width: 500px;
+    margin-left: 500px;
 }
-.hollywoodPageADD{
-    position: absolute;
-    top: 1550px;
+.HollymovieEventMovie{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+.DetailsMovieHolly{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+/*          BOLLYWOOD PAGE               */
+.bollywoodWord{
+    margin-top: 10px;
+    margin-left: 550px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.bollyMainpageImages{
+    width: 280px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+.bollyMainpageAllImage{
+    margin-left: 130px;
+}
+/* Gabbar.js */
+.InfoBoxBollyMovie{
+    width: 500px;
+    margin-left: 500px;
+}
+.BollymovieEventMovie{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+.DetailsMovieBolly{
+    color: gray;
+    margin-bottom: 10px;
 }
 
 
@@ -685,20 +723,19 @@
 }
 /* Navbar */
 .navbar{
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: inline;
+    /* flex-wrap: wrap; */
     font-size:small;
     /* margin-left: 200px; */
-    margin-bottom: 10px;
-    display: none;
+    margin-left: 0px;
 }
 .navbarWords{
     /* margin-left: 100px; */
     text-decoration: none;
     color: black;
     /* margin-left: 100px; */
-    color: blue;
-
+    /* margin-bottom: 100px; */
+    margin-left: 15px;
 }
 .horiLine{
     height: 1px;
@@ -763,7 +800,7 @@
     margin-bottom: 50px;
     margin-left: 20px;
 }
-/* THE LATEST DESC */
+/* THE LATEST DESC technology */
 .TheLatestDesc{
     width:370px ;
     margin-left: 10px;
@@ -1131,42 +1168,260 @@
 }
 .latestStoriesShow{
     position: relative;
-    top: 80px;
+    top: 480px;
 }
 
 
 
 
-
-/*                          BOLLYWOOD */
-.bollywoodWord{
-    margin-top: 70px;
-    text-align: left;
-    font: normal normal medium 40px/40px Montserrat;
+/*          HoLLYWOOD PAGE               */
+.hollywoodWord{
+    margin-top: 10px;
+    margin-left: 80px;
     letter-spacing: 0px;
+    font-size: x-large;
     color: #000000;
     opacity: 1;
 }
-.redlineBollywood{
-    height: 5px;
-    width: 70px;
-    margin-top: 35px;
-    background-color: red;
+.hollyMainpageImages{
+    width: 220px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: -30px;
+    border-radius: 20px;
+
 }
-.bollywoodthePost{
-    position: relative;
-    top: -2280px;
+.hollyMainpageAllImage{
+    /* margin-left: 130px; */
 }
-.bollywoodlatestArticle{
-    position: relative;
-    top: 40px;
-    left: -20px;
-    margin-bottom: 50px;
+/* Harry.js */
+.InfoBoxHollyMovie{
+    width: 200px;
+    margin-left: 100px;
+    font-size: large;
 }
-.bollywoodADD{
-    position: absolute;
-    top: 1350px;
+.HollymovieEventMovie{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
 }
+.DetailsMovieHolly{
+    color: gray;
+    margin-bottom: 10px;
+}
+
+/*          BOLLYWOOD PAGE               */
+.bollywoodWord{
+    margin-top: 10px;
+    margin-left: 70px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-size: x-large;
+    opacity: 1;
+}
+.bollyMainpageImages{
+    width: 220px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+.bollyMainpageAllImage{
+    margin-left: 80px;
+}
+/* Gabbar.js */
+/* .InfoBoxBollyMovie{
+    width: 300px;
+    margin-left: 50px;
+}
+.BollymovieEventMovie{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.DetailsMovieBolly{
+    color: gray;
+    margin-bottom: 10px;
+}
+ */
+
+/*       Technology PAGE        */
+    /* TECHUSER PAGE */
+  
+    .techbox{
+        width: 500px;
+        margin-left: 100px;
+    }
+    .TechMainPageHeading{
+        font-size: x-large;
+        font-weight: bold;
+        text-align: center;
+    }
+    .TechUserInfo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .facelogoImage{
+        height: 50px;
+    }
+    .userName{
+        font-size: medium;
+        margin-left: 15px;
+        margin-right: 220px;
+    }
+    .UserlogoBox{
+        /* margin-right: 50px; */
+    }
+    .userlogo{
+        margin-right: 10px;
+        font-size: larger;
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    .AllTechImage{
+        width: 100px;
+        /* margin-left: 100px; */
+    }
+    .TechImage{
+        width: 200px;
+        height: 150px;
+        margin-left: 0px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    
+    
+    /* Technologies details */
+    
+    .InfoBox{
+        width: 250px;
+        margin-left: 80px;
+    }
+    .MainImage{
+        width: 100%;
+    }
+    
+    /* CLAP.JS */
+    .clapImage{
+        width: 30px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .countClap{
+        color: gray;
+    }
+    .clapbox{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .shareImage{
+        width: 30px;
+        height: 30px;
+    }
+    
+    /*  FITNESS PAGE */
+    .fitnessfirstImage{
+        width: 100%;
+        height: 200px;
+    }
+    .FitnessImage{
+        margin-top: 50px;
+        margin-left: 0px;
+        height: 200px;
+        width: 200px;
+    }
+    .FitnessMAinHeading{
+        font-size: x-large;
+        font-weight: bolder;
+        position: absolute;
+        left: 220px;
+        top: 380px;
+    }
+    .fitnessDesc{
+        width: 700px;
+        position: absolute;
+        left: 220px;
+        top:430px ;
+        font-size:x-small;
+        color: gray;
+        width: 150px;
+    }
+    .benifit{
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top: 40px;
+        color: green;
+    }
+    .benidesc{
+        margin-left: 50px;
+        font-size: large;
+        color: blueviolet;
+    }
+    .benfitImage{
+        /* position: absolute;
+        left: 1000px;
+        width: 200px; */
+        display: none;
+    }
+    .benifitHeading{
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .benifitlist{
+        font-size: larger;
+        margin-left: 0px;
+    }
+    .benfitImage1{
+        position: absolute;
+        left: 100px;
+        top: 2000px;
+        width: 200px;
+    }
+    .benifitHeading1{
+        font-size: x-large;
+        font-weight: bold;
+        margin-left: 0px;
+    }
+    .benifitlist1{
+        font-size: larger;
+        margin-left: 0px;
+    }
+    
+    
+    /* FOOD PAGE */
+    
+    .foodImage{
+        margin-left: 15px;
+        width: 370px;
+        height: 280px;
+    }
+    .foodpageHeading{
+        margin-top: 20px;
+        font-size: x-large;
+    }
+    .Italicline{
+        width: 350px;
+        margin-left: 20px;
+        font-style: italic;
+    }
+    .dietHeading{
+        font-size: x-large;
+        font-style: italic;
+    }
+    .descHeadingfood{
+        width: 350px;
+        margin-left: 20px;
+    }
+    .strongcolor{
+        color: darkgreen;
+    }
+    
+    
 
 
 }

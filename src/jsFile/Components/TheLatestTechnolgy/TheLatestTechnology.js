@@ -1,6 +1,5 @@
 import React from 'react'
 import TheLatestTechList from './TheLatestTechList'
-import { Link } from 'react-router-dom'
 
 // import './css/headerStyle.css'
 // import '../css/headerStyle.css'
@@ -11,7 +10,7 @@ import { Link } from 'react-router-dom'
 function TheLatestTechnology() {
     return (
         <div>
-        <Link className='Thelatest_Word' to={"/technology"}><h1 >The Latest Technology</h1></Link>
+        <h1 className='Thelatest_Word'>The Latest Technology</h1>
         <div className='Thelatest_wordundeline'/>
             <div className='thelatest'>
                 <TheLatestTechList/>

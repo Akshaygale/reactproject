@@ -33,7 +33,7 @@ const LatestHollyMovie=()=> {
 
     return (
         <div>
-            <Link className='Hollywoodmovie_Word' to={"/hollywood"}><h1 > Hollywood Movies</h1></Link>
+            <h1  className='Hollywoodmovie_Word' > Hollywood Movies</h1>
             <div className='Thelatest_wordundeline'/>
             <div/>
             <Advertisement/>

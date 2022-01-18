@@ -4,7 +4,7 @@ const HollyMovieRepeat = ({ updatehollywoodToRender }) => {return (
     <ul>
       {updatehollywoodToRender.map((post,box,line) => (
         <div key={box}>
-            <div className='BulidingHrline'/>
+            <div className='Bulidrline'/>
           {post.box}
           {post.line}
           
