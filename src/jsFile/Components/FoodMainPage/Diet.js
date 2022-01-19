@@ -3,7 +3,7 @@ import React from 'react'
 function Diet() {
     return (
         <div className='dietbox'>
-            <img  className='imagedietpages_Diet' src='./Images/diet3.jpg'></img>
+            <img  className='imagedietpages_Diet' src='./Images/diet3.jpg' alt='diet'></img>
             <p className='dietHeading'>Healthy Plant-Based Diet</p>
             <div>
             <p >A plant-based diet comprises of the following food categories:</p>
