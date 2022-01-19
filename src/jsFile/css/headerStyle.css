@@ -631,20 +631,44 @@
     color: gray;
 }
 .benifit{
-    font-size: 50px;
-    margin-left: 250px;
-    margin-top: 80px;
+    font-size: x-large;
+    margin-left: 650px;
+    margin-top: -150px;
     color: green;
 }
-.benidesc{
-    margin-left: 100px;
-    font-size: x-large;
-    color: blueviolet;
+.workoutWord{
+    font-size: xx-large;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-weight: bold;
 }
-.benfitImage{
-    position: absolute;
-    left: 1000px;
-    width: 200px;
+.imageWorkout{
+    width: 700px;
+    margin-left: 100px;
+}
+.descworkout{
+    width: 600px;
+    margin-left: 850px;
+    margin-top: -350px;
+    font-size: x-large;
+}
+.workoutplan{
+    font-size: x-large;
+    margin-left: 850px;
+    color: green;
+    font-weight: bold;
+}
+
+
+/* Yoga */
+.yogabox{
+    width: 700px;
+    margin-left: 450px;
+}
+.benidesc{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: blueviolet;
 }
 .benifitHeading{
     font-size: xx-large;
@@ -654,21 +678,24 @@
     font-size: larger;
     margin-left: 50px;
 }
-.benfitImage1{
-    position: absolute;
-    left: 150px;
-    width: 200px;
+/* GYM */
+.gymbox{
+    width: 700px;
+    margin-left: 400px;
 }
-.benifitHeading1{
-    font-size: xx-large;
-    font-weight: bold;
-    margin-left: 800px;
+.gymMainheading{
+    text-align: center;
+    color: brown;
 }
-.benifitlist1{
-    font-size: larger;
-    margin-left: 850px;
+.italicgym{
+    font-style: italic;
 }
-
+.HeadingGymSecond{
+    font-style: italic;
+}
+.descgym{
+    color: gray;
+}
 
 /* FOOD PAGE */
 
@@ -685,9 +712,27 @@
     margin-left: 20px;
     font-style: italic;
 }
+.dietedit{
+    color: violet;
+}
+.dietlink{
+    font-size: x-large;
+    color: brown;
+    margin: 20px;
+    font-weight: bolder;
+}
+/* DIEt */
+.imagedietpages_Diet{
+
+}
+.dietbox{
+    width: 500px;
+    margin-left: 400px;
+}
 .dietHeading{
     font-size: xx-large;
     font-style: italic;
+    font-weight: bolder;
 }
 .descHeadingfood{
     width: 1400px;
@@ -696,12 +741,6 @@
 .strongcolor{
     color: darkgreen;
 }
-
-
-
-
-
-
 
 /*                          MOBILE RESOLUTION SCREEN                         */
 
@@ -1352,10 +1391,37 @@
         width: 150px;
     }
     .benifit{
-        font-size: 30px;
+        font-size: x-large;
         margin-left: 20px;
         margin-top: 40px;
         color: green;
+    }
+    .workoutWord{
+        font-size: xx-large;
+        margin-top: 150px;
+        margin-left: 30px;
+        font-weight: bold;
+    }
+    .imageWorkout{
+        width: 350px;
+        margin-left: 10px;
+    }
+    .descworkout{
+        width: 350px;
+        margin-left: 30px;
+        margin-top: 0px;
+        font-size: large;
+    }
+    .workoutplan{
+        font-size: x-large;
+        margin-left: 50px;
+        color: green;
+        font-weight: bold;
+    }
+    /* yoga */
+    .yogabox{
+        width: 300px;
+        margin-left: 30px;
     }
     .benidesc{
         margin-left: 50px;
@@ -1363,9 +1429,7 @@
         color: blueviolet;
     }
     .benfitImage{
-        /* position: absolute;
-        left: 1000px;
-        width: 200px; */
+        
         display: none;
     }
     .benifitHeading{
@@ -1391,6 +1455,24 @@
         font-size: larger;
         margin-left: 0px;
     }
+    /* GYM */
+.gymbox{
+    width: 350px;
+    margin-left: 30px;
+}
+.gymMainheading{
+    text-align: center;
+    color: brown;
+}
+.italicgym{
+    font-style: italic;
+}
+.HeadingGymSecond{
+    font-style: italic;
+}
+.descgym{
+    color: gray;
+}
     
     
     /* FOOD PAGE */
@@ -1420,7 +1502,26 @@
     .strongcolor{
         color: darkgreen;
     }
-    
+/* DIEt */
+.imagedietpages_Diet{
+    width: 350px;
+}
+.dietbox{
+    width: 350px;
+    margin-left: 30px;
+}
+.dietHeading{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+}
+.descHeadingfood{
+    width: 1400px;
+    margin-left: 20px;
+}
+.strongcolor{
+    color: darkgreen;
+} 
     
 
 

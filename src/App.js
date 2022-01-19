@@ -26,6 +26,9 @@ import Tzp from './jsFile/Components/BollywoodMainPage/Tzp';
 import Villan from './jsFile/Components/BollywoodMainPage/Villan';
 import Gabbar from './jsFile/Components/BollywoodMainPage/Gabbar';
 import Brahmastra from './jsFile/Components/BollywoodMainPage/Brahmastra'
+import Yoga from './jsFile/Components/FitnessMainPage/Yoga';
+import Gym from './jsFile/Components/FitnessMainPage/Gym';
+import Diet from './jsFile/Components/FoodMainPage/Diet';
 
 
 
@@ -64,6 +67,9 @@ function App() {
         <Route path='/villan' element={<Villan/>}/>
         <Route path='/gabbar' element={<Gabbar/>}/>
         <Route path='/brahmastra' element={<Brahmastra/>}/>
+        <Route path='/yoga' element={<Yoga/>}/>
+        <Route path='/gym' element={<Gym/>}/>
+        <Route path='/diet' element={<Diet/>}/>
 
 
       </Routes>
