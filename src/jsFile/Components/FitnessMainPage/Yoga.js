@@ -1,8 +1,13 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Yoga() {
     return (
         <div className='yogabox'>
+        <p className='FitnessMAinHeading'>What Is Yoga?</p>
+
+        <img className='FitnessImage' src='./Images/fitness2.jpg' alt="fitnessImage"></img>
+        <p className='fitnessDesc'>A Hindu Spiritual And Ascetic Discipline, A Part Of Which, Including Breath Control, Simple Meditation, And The Adoption Of Specific Bodily Postures, Is Widely Practised For Health And Relaxation.</p>
         <p className='benidesc'>The health benefits of yoga are grouped under 3 heads...</p>
 
                 <p className='benifitHeading'>Physiological Benefits Of Yoga</p>
@@ -51,6 +56,8 @@ function Yoga() {
                     <li>Vitamin C increases</li>
                     </ul>
             </div>
+            <Link to={'/gym'}><img className='GYMimageWorkout' src='./Images/gymwork.webp' alt='gym'></img></Link>
+
         </div>
     )
 }

@@ -29,6 +29,7 @@ import Brahmastra from './jsFile/Components/BollywoodMainPage/Brahmastra'
 import Yoga from './jsFile/Components/FitnessMainPage/Yoga';
 import Gym from './jsFile/Components/FitnessMainPage/Gym';
 import Diet from './jsFile/Components/FoodMainPage/Diet';
+import Nonveg from './jsFile/Components/FoodMainPage/Nonveg';
 
 
 
@@ -70,6 +71,7 @@ function App() {
         <Route path='/yoga' element={<Yoga/>}/>
         <Route path='/gym' element={<Gym/>}/>
         <Route path='/diet' element={<Diet/>}/>
+        <Route path='/nonveg' element={<Nonveg/>}/>
 
 
       </Routes>

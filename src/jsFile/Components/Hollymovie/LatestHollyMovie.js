@@ -46,7 +46,7 @@ const LatestHollyMovie=()=> {
                 {/* TOP BOLLYWOOD POST*/}
             <TopsShowBolly/>
             
-        <Link to={"/food"}><img className='FitSeparateImage' src='./Images/Fit.ness.jpg'  alt='hollywoodImage'></img></Link>
+        <Link to={"/gym"}><img className='FitSeparateImage' src='./Images/gymwork.webp'  alt='hollywoodImage'></img></Link>
 
         </div>
     )

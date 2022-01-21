@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function Diet() {
     return (
@@ -15,6 +17,8 @@ function Diet() {
             <p><strong className='strongcolor'>Seaweed::</strong> nori, kombu, and wakame.</p>
             <p><strong className='strongcolor'>Traditionally prepared, Non-GMO soy products::</strong> miso, shoyu, tofu, soy milk, tempeh.</p>
             </div>
+            <Link  to={'/nonveg'}><img className='newlinktofood' src='./Images/nonveg.jpg' alt='diet'></img></Link>
+
         </div>
     )
 }

@@ -608,34 +608,11 @@
 
 /*  FITNESS PAGE */
 .fitnessfirstImage{
-    width: 1500px;
-    height: 500px;
-}
-.FitnessImage{
-    margin-top: 150px;
+    width: 1000px;
+    height: 400px;
     margin-left: 250px;
 }
-.FitnessMAinHeading{
-    font-size: 50px;
-    font-weight: bolder;
-    position: absolute;
-    left: 870px;
-    top: 800px;
-}
-.fitnessDesc{
-    width: 700px;
-    position: absolute;
-    left: 700px;
-    top:930px ;
-    font-size: x-large;
-    color: gray;
-}
-.benifit{
-    font-size: x-large;
-    margin-left: 650px;
-    margin-top: -150px;
-    color: green;
-}
+
 .workoutWord{
     font-size: xx-large;
     margin-top: 150px;
@@ -658,12 +635,51 @@
     color: green;
     font-weight: bold;
 }
-
+.FitnessImageBox{
+    width: 400px;
+    height: 400px;
+    margin-left: 150px;
+}
+.yogaWord{
+    width: 600px;
+    margin-left: 1050px;
+    font-size: xx-large;
+    font-weight: bold;
+}
 
 /* Yoga */
 .yogabox{
     width: 700px;
-    margin-left: 450px;
+    margin-left: 400px;
+}
+.FitnessImage{
+    /* margin-top: 150px;
+    margin-left: 250px; */
+    width: 400px;
+    height: 400px;
+    margin-left: 150px;
+}
+.FitnessMAinHeading{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    /* position: absolute; */
+    /* left: 870px; */
+    /* top: 800px; */
+}
+.fitnessDesc{
+    width: 700px;
+    /* position: absolute;
+    left: 700px;
+    top:930px ; */
+    font-size: large;
+    color: gray;
+}
+.benifit{
+    font-size: x-large;
+    margin-left: 650px;
+    margin-top: -150px;
+    color: green;
 }
 .benidesc{
     font-size: xx-large;
@@ -686,6 +702,10 @@
 .gymMainheading{
     text-align: center;
     color: brown;
+}
+.GYMimageWorkout{
+    width: 500px;
+    margin-left: 80px;
 }
 .italicgym{
     font-style: italic;
@@ -721,6 +741,13 @@
     margin: 20px;
     font-weight: bolder;
 }
+.imagedietpages_DietFoodbox{
+    margin-left: 200px;
+    margin-right: 100px;
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+}
 /* DIEt */
 .imagedietpages_Diet{
 
@@ -740,6 +767,26 @@
 }
 .strongcolor{
     color: darkgreen;
+}
+/* NONVEG */
+.nonvegbox{
+    width: 500px;
+    margin-left: 450px;
+}
+.Heading1nonveg{
+    font-style: italic;
+    text-decoration: underline violet;
+    text-align: center;
+}
+.Heading2nonveg{
+    color: green;
+}
+.nonvegdesc{
+    color: gray;
+}
+.newlinktofood{
+    width: 500px;
+    border-radius: 20px;
 }
 
 /*                          MOBILE RESOLUTION SCREEN                         */

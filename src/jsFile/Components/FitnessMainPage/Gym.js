@@ -1,9 +1,12 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Gym() {
     return (
         <div className='gymbox'>
             <h1 className='gymMainheading'>6 Day Gym Workout Schedule</h1>
+            <img className='GYMimageWorkout' src='./Images/gymwork.webp' alt='gym'></img>
+
             <p className='italicgym'>Some are looking for weight loss, while some are looking for bulking. This article will focus on the gym workout routine for mass gaining.  To achieve the mass gain, you have to understand the requirements and work-out plan. Below is the best 6 days gym workout schedule for bulking. While Building muscle you are training your fast twitch muscle fibre, hence you need to pick those heavy weight by which you can hardly hit maximum 8 reps [no ego lifting], along with correct form. Always keep a gym partner or trainer if you are new to this.</p>
             <p className='italicgym'>We have designed this workout schedule keeping muscle anatomy in mind. We have covered each and every muscle and sub muscle, so that you can grow every part of your body.</p>
             
@@ -25,6 +28,8 @@ function Gym() {
             
             <h2 className='HeadingGymSecond'>DAY 6 AND DAY 7 WILL BE OF REST</h2>
             <p className='descgym'>Take day 6 and day 7 off, as your muscles need recovery. Follow this workout plan to build strength and muscles. One of the best 6 days split workout routine for mass gain. Following a balanced diet plan will add high value to the workout. Be consistent, patient and loyal to see results. Always consult with your personal trainer or doctor before following any workout plan. These workout plans are designed to gain weight and is an ideal for all. In some cases, you might need to change any of the workout routine as per your physique and health.</p>
+
+            <Link to={'/yoga'}><img className='FitnessImage' src='./Images/yoga.jpg' alt="fitnessImage"></img></Link>
 
             </div>
     )

@@ -9,7 +9,7 @@ function HpageImage() {
         <div>
         <Link to={"/harry"}> <img className='image1' src="./Images/H.harrypotter.jpg" alt="harrypotter" /></Link>
         <Link to={"/digitalmarketing"}><img className='image2' src="./Images/T.digital.jpg" alt="digial" /></Link>
-        <Link to={"/brahmastra"}><img className='image3' src="./Images/B.brahmastra.jpg" alt="brahamstra" /></Link>
+        <Link to={"/diet"}><img className='image3' src="./Images/diet3.jpg" alt="brahamstra" /></Link>
         </div>
             
         
